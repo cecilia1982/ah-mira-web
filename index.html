@@ -27,7 +27,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- mobile display -->
-                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo3.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -111,17 +111,21 @@
     </section>
     <!--================ /Nosotros =================--------------->
     <!--================ Video Area =================-->
-    <section class="video-sec-area section_gap_top" style="background-color: #f4f8ff;">
+    <section  class="video-sec-area section_gap_top" style="background-color: #f4f8ff;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="main_title" style="align-items: center;">
                     <h1>AH - MIRÁ Este Video</h1>
                     <p style="font-size: 18px;">Se armó el baile, con coreografía incluida y coordinación ¡excelente! <br>Vení a bailar vos también.</p><br><a class="primary-btn text-uppercase" href="https://api.whatsapp.com/send?phone=541164858681&text=Hola%20AH-MIRA!" target="_blank" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Contacto</a>
                 </div>
-
+ <!--
                 <div class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-                    <iframe class="embed-responsive-item" src="img/video.mp4" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="img/video.mp4" allowfullscreen controls muted></iframe>
                 </div>
+-->
+                <video class="video-fluid z-depth-1" autoplay loop controls muted>
+                       <source src="img/video.mp4" type="video/mp4" />
+                </video>
             </div>
         </div>
     </section>
