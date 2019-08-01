@@ -4223,11 +4223,11 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-    background-color: #222222;
+    background-color: #EEEEEC;
 }
 
 .footer-area h5 {
-    color: #fff;
+    color: #3D3D3D;
     margin-bottom: 25px;
     font-size: 18px;
     font-weight: 700;
@@ -4274,7 +4274,7 @@ h6 {
 }
 
 .single-footer-widget p {
-    color: #999999;
+    color: #3D3D3D;
     margin-bottom: 0;
 }
 
@@ -4298,7 +4298,7 @@ h6 {
 .single-footer-widget .list li a {
     line-height: 25px;
     display: inline-block;
-    color: #999999;
+    color: #3D3D3D;
     transition: all 0.3s linear;
     margin-bottom: 13px;
     font-size: 14px;
@@ -4495,3 +4495,7 @@ h6 {
     filter: grayscale(100%);
 }*/
 
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
